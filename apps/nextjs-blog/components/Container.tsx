@@ -1,4 +1,4 @@
-import { cn } from '@planoby/utils';
+import { cn } from '@mypackage/utils';
 
 export function Container({ className, children }: { className?: string; children: React.ReactNode }) {
     return (

@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@planoby/utils": "workspace:*",
+    "@mypackage/utils": "workspace:*",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.1.0"
