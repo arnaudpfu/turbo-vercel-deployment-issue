@@ -1,0 +1,27 @@
+{
+    "name": "@planoby/utils",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "types": "./src/index.ts",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "test:coverage": "pnpm test -- --coverage",
+        "test:badges": "pnpm run test:coverage  && jest-coverage-badges --output './.badges'",
+        "dev": "tsc -w"
+    },
+    "devDependencies": {
+        "@planoby/typescript-config": "workspace:*",
+        "@types/lodash": "^4.17.9",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "clsx": "^2.1.0",
+        "dayjs": "^1.11.13",
+        "lodash": "^4.17.21",
+        "tailwind-merge": "^2.5.2",
+        "zod": "^3.23.8"
+    }
+}

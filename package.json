@@ -1,0 +1,35 @@
+{
+  "name": "planoby",
+  "version": "1.0.0",
+  "description": "Reservation system application",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev --concurrency 20",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix -- ",
+    "format": "prettier --write \"./**/*.{ts,tsx,md}\"",
+    "g-api-types": "turbo g-api-types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "husky": "^9.0.11",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "turbo": "^2.3.0",
+    "typescript": "^5.6.2"
+  }
+}

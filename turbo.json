@@ -1,0 +1,51 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        ".env*"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**"
+      ]
+    },
+    "lint": {
+      "dependsOn": [
+        "^lint"
+      ],
+      "env": [
+        "TEST_EMAIL"
+      ]
+    },
+    "lint:fix": {
+      "dependsOn": [
+        "^lint:fix"
+      ],
+      "env": [
+        "TEST_EMAIL"
+      ]
+    },
+    "test:badges": {
+      "dependsOn": [
+        "^test:badges"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "g-api-types": {}
+  },
+  "globalEnv": [
+    "CONFIG_EMAIL_USER",
+    "CONFIG_EMAIL_PASS",
+    "TEST_EMAIL",
+    "NODE_ENV"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Strapi/server",
+    "extends": "./base.json",
+    "compilerOptions": {
+        /* Modules */
+        "module": "CommonJS" /* Specify what module code is generated. */,
+        "moduleResolution": "Node" /* Specify how TypeScript looks up a file from a given module specifier. */,
+
+        // "lib": ["ES2020"],
+        // "target": "ES2019",
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noEmitOnError": true,
+
+        /* Type Checking */
+        "noImplicitAny": false /* Enable error reporting for expressions and declarations with an implied 'any' type. */,
+        "noImplicitThis": true /* Enable error reporting when 'this' is given the type 'any'. */
+    }
+}

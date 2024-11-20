@@ -1,0 +1,10 @@
+{
+    "javascript.validate.enable": true,
+    "javascript.suggestionActions.enabled": false,
+    "typescript.suggestionActions.enabled": false,
+    "files.associations": {
+        "**/typescript-config/strapi.json": "jsonc",
+        "**/typescript-config/nextjs.json": "jsonc",
+        "**/typescript-config/base.json": "jsonc"
+    }
+}
