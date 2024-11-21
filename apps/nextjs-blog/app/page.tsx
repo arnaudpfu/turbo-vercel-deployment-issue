@@ -1,7 +1,7 @@
 import { Container } from '@/components/Container';
 import Image from 'next/image';
 // import { SUPPORTED_LANGUAGES } from '@internalpackage/app-settings';
-import { cn } from '@internalpackage/utils';
+// import { cn } from '@internalpackage/utils';
 
 export default function Home() {
     // SUPPORTED_LANGUAGES.map((lang) => console.log(lang));
