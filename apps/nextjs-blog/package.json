@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@internalpackage/utils": "workspace:*",
     "@internalpackage/components": "workspace:*",
     "react": "^18",
     "react-dom": "^18",
