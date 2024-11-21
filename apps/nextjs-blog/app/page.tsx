@@ -1,7 +1,11 @@
 import { Container } from '@/components/Container';
 import Image from 'next/image';
+import { SUPPORTED_LANGUAGES } from '@internalpackage/app-settings';
 
 export default function Home() {
+    SUPPORTED_LANGUAGES.map((lang) => console.log(lang));
+
+
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
