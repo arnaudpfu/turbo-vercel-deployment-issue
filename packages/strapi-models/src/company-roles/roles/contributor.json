@@ -1,0 +1,52 @@
+{
+    "companies": {
+        "view": true,
+        "update": false,
+        "delete": false
+    },
+    "company-roles": {
+        "create": false,
+        "update": false,
+        "view": false,
+        "delete": false
+    },
+    "services": {
+        "create": false,
+        "update": false,
+        "view": true,
+        "delete": false
+    },
+    "participant-data-schemas": {
+        "create": false,
+        "update": false,
+        "view": true,
+        "delete": false
+    },
+    "slots": {
+        "create": false,
+        "update": false,
+        "view": true,
+        "move": false,
+        "delete": false
+    },
+    "checkouts": {
+        "create": false,
+        "update": false,
+        "view": false,
+        "delete": false
+    },
+    "bookings": {
+        "create": false,
+        "update": false,
+        "view": false,
+        "delete": false,
+        "charge": false,
+        "sendRecapEmail": false
+    },
+    "company-settings": {
+        "create": false,
+        "update": false,
+        "view": false,
+        "delete": false
+    }
+}

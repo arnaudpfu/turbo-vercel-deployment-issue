@@ -1,0 +1,8 @@
+{
+    "extends": "@internalpackage/typescript-config/strapi.json",
+    "compilerOptions": {
+        "typeRoots": ["./node_modules/@types/"]
+    },
+    "include": [],
+    "exclude": []
+}

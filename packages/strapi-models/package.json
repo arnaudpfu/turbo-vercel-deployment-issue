@@ -1,0 +1,32 @@
+{
+    "name": "@internalpackage/strapi-models",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "types": "./src/index.ts",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "test:coverage": "pnpm test -- --coverage",
+        "test:badges": "pnpm run test:coverage  && jest-coverage-badges --output './.badges'",
+        "dev": "tsc -w"
+    },
+    "devDependencies": {
+        "@internalpackage/strapi-extra-types": "workspace:*",
+        "@internalpackage/jestconfig": "workspace:*",
+        "@internalpackage/types": "workspace:*",
+        "@internalpackage/typescript-config": "workspace:*",
+        "@strapi/strapi": "^5.2.0",
+        "@strapi/types": "^5.2.0",
+        "@strapi/typescript-utils": "^5.2.0",
+        "@types/jest": "^29.5.14",
+        "@types/lodash": "^4.17.9",
+        "type-fest": "^4.26.1",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "@internalpackage/utils": "workspace:*",
+        "lodash": "^4.17.21"
+    }
+}

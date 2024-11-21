@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Planoby_base",
+    "display": "App/base",
     "compilerOptions": {
         /* Visit https://aka.ms/tsconfig to read more about this file */
         /* Projects */

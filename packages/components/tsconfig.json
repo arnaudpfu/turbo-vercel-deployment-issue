@@ -1,0 +1,24 @@
+{
+    "extends": "@internalpackage/typescript-config/nextjs.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "typeRoots": ["./node_modules/@types/"],
+        "noEmit": true,
+        "module": "NodeNext",
+        "moduleDetection": "force",
+        "moduleResolution": "NodeNext"
+    },
+    "include": ["./src/**/*.ts", "./src/**/*.tsx", "./env.d.ts", "src/ui/NotificationRow.tsx"],
+    "exclude": [
+        "node_modules/",
+        "build/",
+        "dist/",
+        ".cache/",
+        ".tmp/",
+        "src/admin/",
+        "**/*.test.ts",
+        "src/plugins/**",
+        "types/generated/**"
+    ]
+}

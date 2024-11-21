@@ -1,0 +1,22 @@
+{
+    "name": "@internalpackage/sms-provider",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "types": "./src/index.ts",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w"
+    },
+    "devDependencies": {
+        "@internalpackage/typescript-config": "workspace:*",
+        "@internalpackage/app-settings": "workspace:*",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "@vonage/server-sdk": "^3.17.0",
+        "axios": "^1.7.7",
+        "messagebird": "^4.0.1"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "extends": "@internalpackage/typescript-config/strapi.json",
+    "compilerOptions": {
+        "noEmit": false,
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "typeRoots": ["./node_modules/@types/"]
+    },
+    "include": ["env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "dist", "strapi-type-sender"]
+}

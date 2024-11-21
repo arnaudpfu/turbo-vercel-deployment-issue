@@ -1,0 +1,24 @@
+{
+    "name": "@internalpackage/app-settings",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "types": "./src/index.ts",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w"
+    },
+    "devDependencies": {
+        "@internalpackage/strapi-extra-types": "workspace:*",
+        "@internalpackage/types": "workspace:*",
+        "@internalpackage/typescript-config": "workspace:*",
+        "@types/react": "^18.3.6",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "@internalpackage/utils": "workspace:*",
+        "@strapi/strapi": "^5.2.0",
+        "@strapi/types": "^5.2.0"
+    }
+}

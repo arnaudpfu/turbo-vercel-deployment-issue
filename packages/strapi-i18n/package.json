@@ -1,0 +1,17 @@
+{
+    "name": "@internalpackage/strapi-i18n",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "types": "./src/index.ts",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w"
+    },
+    "devDependencies": {
+        "@internalpackage/typescript-config": "workspace:*",
+        "@internalpackage/utils": "workspace:*",
+        "typescript": "^5.6.2"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "@internalpackage/types",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "main": "./dist/index.js",
+    "types": "./src/index.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w",
+        "g-api-types": "node ./strapi-type-sender/index.js ./src/api.ts"
+    },
+    "devDependencies": {
+        "@internalpackage/typescript-config": "workspace:*",
+        "type-fest": "^4.26.1",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "zod": "^3.23.8"
+    }
+}

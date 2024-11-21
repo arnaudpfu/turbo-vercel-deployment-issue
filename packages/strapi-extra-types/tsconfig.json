@@ -1,0 +1,11 @@
+{
+    "extends": "@internalpackage/typescript-config/strapi.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": ".",
+        "lib": ["esnext"],
+        "typeRoots": ["./node_modules/@types/"]
+    },
+    "include": ["./index.d.ts", "./**/*.ts"],
+    "exclude": ["node_modules/"]
+}

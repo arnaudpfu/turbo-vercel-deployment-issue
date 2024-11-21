@@ -1,0 +1,10 @@
+{
+    "companyContentTypes": [
+        "slots",
+        "services",
+        "participant-data-schemas",
+        "company-settings",
+        "checkouts",
+        "bookings"
+    ]
+}

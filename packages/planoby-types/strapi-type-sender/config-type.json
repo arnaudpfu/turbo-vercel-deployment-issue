@@ -1,0 +1,36 @@
+{
+    "strapiPath": "../../apps/strapi",
+    "hook": {
+        "import": "import { dataSchemaSchema, pricesSchema, slotFrequencySchema, participantsSchema, checkoutAppearanceSchema, settingJSONSchema, checkoutContentSchema} from './external-api';\nimport { ValueOf } from 'type-fest';"
+    },
+    "jsonTable": {
+        "schema": {
+            "needBaseSchema": false,
+            "value": "dataSchemaSchema"
+        },
+        "prices": {
+            "needBaseSchema": false,
+            "value": "pricesSchema"
+        },
+        "frequency": {
+            "needBaseSchema": false,
+            "value": "slotFrequencySchema"
+        },
+        "participants": {
+            "needBaseSchema": false,
+            "value": "participantsSchema"
+        },
+        "appearance": {
+            "needBaseSchema": false,
+            "value": "checkoutAppearanceSchema"
+        },
+        "value": {
+            "needBaseSchema": false,
+            "value": "settingJSONSchema"
+        },
+        "content": {
+            "needBaseSchema": false,
+            "value": "checkoutContentSchema"
+        }
+    }
+}

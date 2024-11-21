@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "turbo"
+  ],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [
+        ".ts",
+        ".tsx"
+      ]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": [
+          "tsconfig.json",
+          "package/tsconfig.json"
+        ]
+      }
+    }
+  },
+  "ignorePatterns": [
+    ".*.js",
+    "node_modules/"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.js?(x)",
+        "*.ts?(x)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "@internalpackage/color-picker",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "types": "./src/index.ts",
+    "main": "./src/index.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w"
+    },
+    "devDependencies": {
+        "@internalpackage/typescript-config": "workspace:*",
+        "@types/lodash": "^4.17.10",
+        "@types/react": "^18.3.6",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "@internalpackage/utils": "workspace:*",
+        "@radix-ui/react-popover": "^1.0.7",
+        "@radix-ui/react-slider": "^1.2.1",
+        "lodash": "^4.17.21",
+        "react": "^18.0.0",
+        "react-icons": "^5.0.1",
+        "super-color": "^1.0.6"
+    }
+}
