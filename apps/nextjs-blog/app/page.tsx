@@ -1,13 +1,16 @@
 import { Container } from '@/components/Container';
 import Image from 'next/image';
-import { SUPPORTED_LANGUAGES } from '@internalpackage/app-settings';
+// import { SUPPORTED_LANGUAGES } from '@internalpackage/app-settings';
+import { cn } from '@internalpackage/utils';
 
 export default function Home() {
-    SUPPORTED_LANGUAGES.map((lang) => console.log(lang));
+    // SUPPORTED_LANGUAGES.map((lang) => console.log(lang));
+    // const k = cn('text-center', 'text-4xl', 'font-bold');
 
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            {/* <div className={k}></div> */}
             <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
                 <Container className="flex flex-col items-center justify-center">
                     <h1 className="text-center text-4xl font-bold">Welcome to your Next.js app</h1>
