@@ -38,9 +38,6 @@ importers:
 
   apps/nextjs-blog:
     dependencies:
-      '@internalpackage/app-settings':
-        specifier: workspace:*
-        version: link:../../packages/app-settings
       '@internalpackage/components':
         specifier: workspace:*
         version: link:../../packages/components
