@@ -14,7 +14,6 @@
     },
     "devDependencies": {
         "@internalpackage/jestconfig": "workspace:*",
-        "@internalpackage/types": "workspace:*",
         "@internalpackage/typescript-config": "workspace:*",
         "@strapi/database": "^4.25.11",
         "@strapi/strapi": "^5.4.0",
@@ -24,6 +23,7 @@
         "typescript": "^5.6.2"
     },
     "dependencies": {
+        "@internalpackage/types": "workspace:*",
         "clsx": "^2.1.0",
         "dayjs": "^1.11.13",
         "lodash": "^4.17.21",

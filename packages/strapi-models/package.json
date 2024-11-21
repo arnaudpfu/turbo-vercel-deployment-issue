@@ -15,7 +15,6 @@
     "devDependencies": {
         "@internalpackage/strapi-extra-types": "workspace:*",
         "@internalpackage/jestconfig": "workspace:*",
-        "@internalpackage/types": "workspace:*",
         "@internalpackage/typescript-config": "workspace:*",
         "@strapi/strapi": "^5.2.0",
         "@strapi/types": "^5.2.0",
@@ -26,6 +25,7 @@
         "typescript": "^5.6.2"
     },
     "dependencies": {
+        "@internalpackage/types": "workspace:*",
         "@internalpackage/utils": "workspace:*",
         "lodash": "^4.17.21"
     }
