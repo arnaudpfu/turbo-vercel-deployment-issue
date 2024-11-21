@@ -84,6 +84,9 @@ importers:
 
   packages/app-settings:
     dependencies:
+      '@internalpackage/types':
+        specifier: workspace:*
+        version: link:../planoby-types
       '@internalpackage/utils':
         specifier: workspace:*
         version: link:../utils
@@ -97,9 +100,6 @@ importers:
       '@internalpackage/strapi-extra-types':
         specifier: workspace:*
         version: link:../strapi-extra-types
-      '@internalpackage/types':
-        specifier: workspace:*
-        version: link:../planoby-types
       '@internalpackage/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -152,6 +152,9 @@ importers:
       '@hookform/resolvers':
         specifier: ^3.3.4
         version: 3.9.1(react-hook-form@7.53.2(react@18.0.0))
+      '@internalpackage/types':
+        specifier: workspace:*
+        version: link:../planoby-types
       '@internalpackage/utils':
         specifier: workspace:*
         version: link:../utils
@@ -279,9 +282,6 @@ importers:
       '@internalpackage/jestconfig':
         specifier: workspace:*
         version: link:../jestconfig
-      '@internalpackage/types':
-        specifier: workspace:*
-        version: link:../planoby-types
       '@internalpackage/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -318,6 +318,9 @@ importers:
       '@internalpackage/app-settings':
         specifier: workspace:*
         version: link:../app-settings
+      '@internalpackage/types':
+        specifier: workspace:*
+        version: link:../planoby-types
       dayjs:
         specifier: ^1.11.13
         version: 1.11.13
@@ -328,9 +331,6 @@ importers:
       '@internalpackage/strapi-i18n':
         specifier: workspace:*
         version: link:../strapi-i18n
-      '@internalpackage/types':
-        specifier: workspace:*
-        version: link:../planoby-types
       '@internalpackage/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -469,6 +469,9 @@ importers:
 
   packages/strapi-models:
     dependencies:
+      '@internalpackage/types':
+        specifier: workspace:*
+        version: link:../planoby-types
       '@internalpackage/utils':
         specifier: workspace:*
         version: link:../utils
@@ -482,9 +485,6 @@ importers:
       '@internalpackage/strapi-extra-types':
         specifier: workspace:*
         version: link:../strapi-extra-types
-      '@internalpackage/types':
-        specifier: workspace:*
-        version: link:../planoby-types
       '@internalpackage/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -514,6 +514,9 @@ importers:
 
   packages/utils:
     dependencies:
+      '@internalpackage/types':
+        specifier: workspace:*
+        version: link:../planoby-types
       clsx:
         specifier: ^2.1.0
         version: 2.1.0
@@ -533,9 +536,6 @@ importers:
       '@internalpackage/jestconfig':
         specifier: workspace:*
         version: link:../jestconfig
-      '@internalpackage/types':
-        specifier: workspace:*
-        version: link:../planoby-types
       '@internalpackage/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
